@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: 38-SB-Configserver-21
+     
+     
+    cloud:
+     config:
+      server:
+       git:
+        uri: 
+        clone-on-start: true
+        
+         
